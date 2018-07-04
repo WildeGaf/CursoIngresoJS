@@ -4,7 +4,7 @@
 */
 function mostrar()
 {
-	var nombre
+	var nombre;
 	nombre = prompt ("Ingrese su nombre");
 	document.getElementById("elNombre").value = nombre;
 	// Al utilizar el modo a la inversa, se toma el valor del document y se imprime
