@@ -7,7 +7,8 @@ function mostrarAumento()
 	var sueldo;
 	var suma;
 	var cuenta;
-	sueldo = parseInt (document.getElementById('sueldo').value);
+	sueldo = document.getElementById('sueldo').value;
+	sueldo = parseint(sueldo);
 	cuenta = 10*sueldo/100;
 	suma = sueldo+cuenta;
 	document.getElementById('resultado').value = suma;
